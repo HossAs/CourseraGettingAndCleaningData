@@ -16,28 +16,28 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 -----------------
 
-## Data Dictionary 
-
-subjectID 
-    Volunteer identifier
-                1..30 Unique identifier for volunteer 
-
-activityID      
-    Activity code 
-                1 .WALKING
-                2 .WALKING_UPSTAIRS
-                3 .WALKING_DOWNSTAIRS
-                4 .SITTING
-                5 .STANDING
-                6 .LAYING
-
-activityLabel   
-    Descriptive activity name corresponding to the activityID (value among (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING))
-    
-tBodyAcc-mean()-X   
-    Mean value of the body acceleration signals for the X Axis (from the accelerometer)
-                The unit are Hz. Features are normalized and bounded within [-1,1]
-
+## Data Dictionary    
+   
+subjectID    
+    Volunteer identifier   
+                1..30 Unique identifier for volunteer    
+   
+activityID         
+    Activity code    
+                1 .WALKING   
+                2 .WALKING_UPSTAIRS   
+                3 .WALKING_DOWNSTAIRS   
+                4 .SITTING   
+                5 .STANDING   
+                6 .LAYING   
+   
+activityLabel      
+    Descriptive activity name corresponding to the activityID (value among (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING))   
+       
+tBodyAcc-mean()-X      
+    Mean value of the body acceleration signals for the X Axis (from the accelerometer)   
+                The unit are Hz. Features are normalized and bounded within [-1,1]   
+   
 tBodyAcc-mean()-Y   
     Mean value of the body acceleration signals for the Y Axis (from the accelerometer)
                 The unit are Hz. Features are normalized and bounded within [-1,1]
