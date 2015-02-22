@@ -23,13 +23,13 @@ subjectID
                 1..30 Unique identifier for volunteer    
    
 activityID         
-    Activity code    
-				1 .WALKING   
-                2 .WALKING_UPSTAIRS   
-                3 .WALKING_DOWNSTAIRS   
-                4 .SITTING   
-                5 .STANDING   
-                6 .LAYING   
+	Activity code    
+				 1 .WALKING   
+				 2 .WALKING_UPSTAIRS   
+				 3 .WALKING_DOWNSTAIRS   
+				 4 .SITTING   
+				 5 .STANDING   
+				 6 .LAYING   
    
 activityLabel      
     Descriptive activity name corresponding to the activityID (value among (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING))   
