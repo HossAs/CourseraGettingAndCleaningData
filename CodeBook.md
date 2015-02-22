@@ -11,7 +11,7 @@ The tidy data contains only the measurements on the mean and standard deviation 
 
 each row corresponds to the average of the measurements by voluntary and activity.
 
-the files used to generate the tidy data are available via the following link** :
+the files used to generate the tidy data are available via the following link :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 -----------------

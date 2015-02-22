@@ -1,4 +1,4 @@
-## 1 : Merges the training and the test sets to create one data set
+## 1 : Merges the training and the test sets to create one data set 
 
 ## Load data files
 subjectTest <- read.table("./UCI HAR Dataset/test/subject_test.txt", header=FALSE, sep="")
