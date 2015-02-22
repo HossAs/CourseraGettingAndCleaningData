@@ -29,8 +29,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 5 .STANDING   
 6 .LAYING   
    
-**activityLabel** : Descriptive activity name corresponding to the activityID 
-value among (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)   
+**activityLabel** : Descriptive activity name corresponding to the activityID    
+                value among (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)   
        
 **tBodyAcc-mean()-X** : Mean value of the body acceleration signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
