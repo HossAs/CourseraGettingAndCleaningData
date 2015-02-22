@@ -30,24 +30,24 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 6 .LAYING   
    
 **activityLabel** : Descriptive activity name corresponding to the activityID    
-                value among (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)   
+                Value among (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)   
        
 **tBodyAcc-mean()-X** : Mean value of the body acceleration signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
    
-**tBodyAcc-mean()-Y** : Mean value of the body acceleration signals for the Y Axis (from the accelerometer)
+**tBodyAcc-mean()-Y** : Mean value of the body acceleration signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]
     
-**tBodyAcc-mean()-Z** : Mean value of the body acceleration signals for the Z Axis (from the accelerometer)
+**tBodyAcc-mean()-Z** : Mean value of the body acceleration signals for the Z Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]
 
-**tBodyAcc-std()-X** : Standard deviation value of the body acceleration signals for the X Axis (from the accelerometer)
+**tBodyAcc-std()-X** : Standard deviation value of the body acceleration signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]
                 
-**tBodyAcc-std()-Y** : Standard deviation value of the body acceleration signals for the Y Axis (from the accelerometer)
+**tBodyAcc-std()-Y** : Standard deviation value of the body acceleration signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]
                 
-**tBodyAcc-std()-Z** : Standard deviation value of the body acceleration signals for the Z Axis (from the accelerometer)
+**tBodyAcc-std()-Z** : Standard deviation value of the body acceleration signals for the Z Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]
                    
 **tGravityAcc-mean()-X** : Mean value of the gravity acceleration signals for the X Axis (from the accelerometer)   
