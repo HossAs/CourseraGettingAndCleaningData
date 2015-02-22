@@ -19,7 +19,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Data Dictionary 
 
 subjectID
-    Volunteer identifier
+    Volunteer identifier<br/>
                 1..30 Unique identifier for volunteer 
 
 activityID      
