@@ -20,7 +20,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 subjectID
     Volunteer identifier<br/>
-                1..30 Unique identifier for volunteer 
+                * 1..30 Unique identifier for volunteer 
 
 activityID      
     Activity code 
