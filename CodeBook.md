@@ -18,282 +18,214 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Data Dictionary    
    
-subjectID    
-    Volunteer identifier   
-                1..30 Unique identifier for volunteer    
+** subjectID  ** :  Volunteer identifier   
+1..30 Unique identifier for volunteer    
    
-activityID         
-	Activity code    
-				 1 .WALKING   
-				 2 .WALKING_UPSTAIRS   
-				 3 .WALKING_DOWNSTAIRS   
-				 4 .SITTING   
-				 5 .STANDING   
-				 6 .LAYING   
+activityID  :  Activity code  
+1 .WALKING   
+2 .WALKING_UPSTAIRS   
+3 .WALKING_DOWNSTAIRS   
+4 .SITTING   
+5 .STANDING   
+6 .LAYING   
    
-activityLabel      
-    Descriptive activity name corresponding to the activityID (value among (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING))   
+activityLabel : Descriptive activity name corresponding to the activityID 
+value among (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)   
        
-tBodyAcc-mean()-X      
-    Mean value of the body acceleration signals for the X Axis (from the accelerometer)   
+tBodyAcc-mean()-X : Mean value of the body acceleration signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
    
-tBodyAcc-mean()-Y   
-    Mean value of the body acceleration signals for the Y Axis (from the accelerometer)
+tBodyAcc-mean()-Y : Mean value of the body acceleration signals for the Y Axis (from the accelerometer)
                 The unit are Hz. Features are normalized and bounded within [-1,1]
     
-tBodyAcc-mean()-Z   
-    Mean value of the body acceleration signals for the Z Axis (from the accelerometer)
+tBodyAcc-mean()-Z : Mean value of the body acceleration signals for the Z Axis (from the accelerometer)
                 The unit are Hz. Features are normalized and bounded within [-1,1]
 
-tBodyAcc-std()-X   
-    Standard deviation value of the body acceleration signals for the X Axis (from the accelerometer)
+tBodyAcc-std()-X : Standard deviation value of the body acceleration signals for the X Axis (from the accelerometer)
                 The unit are Hz. Features are normalized and bounded within [-1,1]
                 
-tBodyAcc-std()-Y   
-    Standard deviation value of the body acceleration signals for the Y Axis (from the accelerometer)
+tBodyAcc-std()-Y : Standard deviation value of the body acceleration signals for the Y Axis (from the accelerometer)
                 The unit are Hz. Features are normalized and bounded within [-1,1]
                 
-tBodyAcc-std()-Z
-    Standard deviation value of the body acceleration signals for the Z Axis (from the accelerometer)
+tBodyAcc-std()-Z : Standard deviation value of the body acceleration signals for the Z Axis (from the accelerometer)
                 The unit are Hz. Features are normalized and bounded within [-1,1]
                    
-tGravityAcc-mean()-X   
-    Mean value of the gravity acceleration signals for the X Axis (from the accelerometer)   
+tGravityAcc-mean()-X : Mean value of the gravity acceleration signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tGravityAcc-mean()-Y   
-    Mean value of the gravity acceleration signals for the Y Axis (from the accelerometer)   
+tGravityAcc-mean()-Y : Mean value of the gravity acceleration signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tGravityAcc-mean()-Z   
-    Mean value of the gravity acceleration signals for the Z Axis (from the accelerometer)   
+tGravityAcc-mean()-Z : Mean value of the gravity acceleration signals for the Z Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tGravityAcc-std()-X   
-    Standard deviation value of the gravity acceleration signals for the X Axis (from the accelerometer)   
+tGravityAcc-std()-X : Standard deviation value of the gravity acceleration signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tGravityAcc-std()-Y   
-    Standard deviation value of the gravity acceleration signals for the Y Axis (from the accelerometer)   
+tGravityAcc-std()-Y : Standard deviation value of the gravity acceleration signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tGravityAcc-std()-Z   
-    Standard deviation value of the gravity acceleration signals for the Z Axis (from the accelerometer)   
+tGravityAcc-std()-Z : Standard deviation value of the gravity acceleration signals for the Z Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyAccJerk-mean()-X   
-    Mean value of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
+tBodyAccJerk-mean()-X : Mean value of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyAccJerk-mean()-Y   
-    Mean value of the body acceleration Jerk signals for the Y Axis (from the accelerometer)   
+tBodyAccJerk-mean()-Y : Mean value of the body acceleration Jerk signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyAccJerk-mean()-Z   
-    Mean value of the body acceleration Jerk signals for the Z Axis (from the accelerometer)   
+tBodyAccJerk-mean()-Z : Mean value of the body acceleration Jerk signals for the Z Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyAccJerk-std()-X   
-    Standard deviation value of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
+tBodyAccJerk-std()-X : Standard deviation value of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyAccJerk-std()-Y   
-    Standard deviation value of the body acceleration Jerk signals for the Y Axis (from the accelerometer)   
+tBodyAccJerk-std()-Y : Standard deviation value of the body acceleration Jerk signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyAccJerk-std()-Z   
-    Standard deviation value of the body acceleration Jerk signals for the Z Axis (from the accelerometer)   
+tBodyAccJerk-std()-Z : Standard deviation value of the body acceleration Jerk signals for the Z Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyGyro-mean()-X   
-    Mean value of the body acceleration signals for the X Axis (from the gyroscope)   
+tBodyGyro-mean()-X : Mean value of the body acceleration signals for the X Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-tBodyGyro-mean()-Y   
-    Mean value of the body acceleration signals for the Y Axis (from the gyroscope)   
+tBodyGyro-mean()-Y : Mean value of the body acceleration signals for the Y Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-tBodyGyro-mean()-Z   
-    Mean value of the body acceleration signals for the Z Axis (from the gyroscope)   
+tBodyGyro-mean()-Z : Mean value of the body acceleration signals for the Z Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
    
-tBodyGyro-std()-X   
-    Standard deviation value of the body acceleration signals for the X Axis (from the gyroscope)   
+tBodyGyro-std()-X : Standard deviation value of the body acceleration signals for the X Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-tBodyGyro-std()-Y   
-    Standard deviation value of the body acceleration signals for the Y Axis (from the gyroscope)   
+tBodyGyro-std()-Y : Standard deviation value of the body acceleration signals for the Y Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
    
-tBodyGyro-std()-Z   
-    Standard deviation value of the body acceleration signals for the Z Axis (from the gyroscope)   
+tBodyGyro-std()-Z : Standard deviation value of the body acceleration signals for the Z Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
    
-tBodyGyroJerk-mean()-X   
-    Mean value of the body acceleration Jerk signals for the X Axis (from the gyroscope)   
+tBodyGyroJerk-mean()-X : Mean value of the body acceleration Jerk signals for the X Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
    
-tBodyGyroJerk-mean()-Y   
-    Mean value of the body acceleration Jerk signals for the Y Axis (from the gyroscope)   
+tBodyGyroJerk-mean()-Y : Mean value of the body acceleration Jerk signals for the Y Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-tBodyGyroJerk-mean()-Z   
-    Mean value of the body acceleration Jerk signals for the Z Axis (from the gyroscope)   
+tBodyGyroJerk-mean()-Z : Mean value of the body acceleration Jerk signals for the Z Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
    
-tBodyGyroJerk-std()-X   
-    Standard deviation of the body acceleration Jerk signals for the X Axis (from the gyroscope)   
+tBodyGyroJerk-std()-X : Standard deviation of the body acceleration Jerk signals for the X Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
    
-tBodyGyroJerk-std()-Y   
-    Standard deviation of the body acceleration Jerk signals for the Y Axis (from the gyroscope)   
+tBodyGyroJerk-std()-Y : Standard deviation of the body acceleration Jerk signals for the Y Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-tBodyGyroJerk-std()-Z   
-    Standard deviation of the body acceleration Jerk signals for the Z Axis (from the gyroscope)   
+tBodyGyroJerk-std()-Z : Standard deviation of the body acceleration Jerk signals for the Z Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
    
-tBodyAccMag-mean()   
-    Mean value of the magnitude of the body acceleration signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
+tBodyAccMag-mean() : Mean value of the magnitude of the body acceleration signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyAccMag-std()   
-    Standard deviation of the magnitude of the body acceleration signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
+tBodyAccMag-std() : Standard deviation of the magnitude of the body acceleration signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tGravityAccMag-mean()   
-    Mean value of the magnitude of the gravity acceleration signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
+tGravityAccMag-mean() : Mean value of the magnitude of the gravity acceleration signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tGravityAccMag-std()   
-    Standard deviation of the magnitude of the gravity acceleration signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
+tGravityAccMag-std() : Standard deviation of the magnitude of the gravity acceleration signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyAccJerkMag-mean()   
-    Mean value of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
+tBodyAccJerkMag-mean() : Mean value of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyAccJerkMag-std()   
-    Standard deviation of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
+tBodyAccJerkMag-std() : Standard deviation of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the accelerometer) (calculated using the Euclidean norm)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-tBodyGyroMag-mean()   
-    Mean value of the magnitude of the body acceleration signals of the three-dimensional signals (from the gyroscope) (calculated using the Euclidean norm)   
+tBodyGyroMag-mean() : Mean value of the magnitude of the body acceleration signals of the three-dimensional signals (from the gyroscope) (calculated using the Euclidean norm)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-tBodyGyroMag-std()   
-    Standard deviation of the magnitude of the body acceleration signals of the three-dimensional signals (from the gyroscope) (calculated using the Euclidean norm)   
+tBodyGyroMag-std() : Standard deviation of the magnitude of the body acceleration signals of the three-dimensional signals (from the gyroscope) (calculated using the Euclidean norm)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-tBodyGyroJerkMag-mean()   
-    Mean value of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the gyroscope) (calculated using the Euclidean norm)   
+tBodyGyroJerkMag-mean() : Mean value of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the gyroscope) (calculated using the Euclidean norm)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-tBodyGyroJerkMag-std()   
-    Standard deviation of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the gyroscope) (calculated using the Euclidean norm)   
+tBodyGyroJerkMag-std() : Standard deviation of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the gyroscope) (calculated using the Euclidean norm)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyAcc-mean()-X     
-    Mean value of Fast Fourier Transform of the body acceleration signals for the X Axis (from the accelerometer)   
+fBodyAcc-mean()-X   : Mean value of Fast Fourier Transform of the body acceleration signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAcc-mean()-Y   
-    Mean value of Fast Fourier Transform of the body acceleration signals for the Y Axis (from the accelerometer)   
+fBodyAcc-mean()-Y : Mean value of Fast Fourier Transform of the body acceleration signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAcc-mean()-Z   
-    Mean value of Fast Fourier Transform of the body acceleration signals for the Z Axis (from the accelerometer)   
+fBodyAcc-mean()-Z : Mean value of Fast Fourier Transform of the body acceleration signals for the Z Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAcc-std()-X   
-    Standard deviation of Fast Fourier Transform of the body acceleration signals for the X Axis (from the accelerometer)   
+fBodyAcc-std()-X : Standard deviation of Fast Fourier Transform of the body acceleration signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAcc-std()-Y   
-    Standard deviation of Fast Fourier Transform of the body acceleration signals for the Y Axis (from the accelerometer)   
+fBodyAcc-std()-Y : Standard deviation of Fast Fourier Transform of the body acceleration signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAcc-std()-Z   
-    Standard deviation of Fast Fourier Transform of the body acceleration signals for the Z Axis (from the accelerometer)   
+fBodyAcc-std()-Z : Standard deviation of Fast Fourier Transform of the body acceleration signals for the Z Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAccJerk-mean()-X   
-    Mean value of Fast Fourier Transform of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
+fBodyAccJerk-mean()-X : Mean value of Fast Fourier Transform of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAccJerk-mean()-Y   
-    Mean value of Fast Fourier Transform of the body acceleration Jerk signals for the Y Axis (from the accelerometer)   
+fBodyAccJerk-mean()-Y : Mean value of Fast Fourier Transform of the body acceleration Jerk signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAccJerk-mean()-Z   
-    Mean value of Fast Fourier Transform of the body acceleration Jerk signals for the Z Axis (from the accelerometer)   
+fBodyAccJerk-mean()-Z : Mean value of Fast Fourier Transform of the body acceleration Jerk signals for the Z Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAccJerk-std()-X   
-    Standard deviation of Fast Fourier Transform of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
+fBodyAccJerk-std()-X : Standard deviation of Fast Fourier Transform of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAccJerk-std()-Y   
-    Standard deviation of Fast Fourier Transform of the body acceleration Jerk signals for the Y Axis (from the accelerometer)   
+fBodyAccJerk-std()-Y : Standard deviation of Fast Fourier Transform of the body acceleration Jerk signals for the Y Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAccJerk-std()-Z   
-    Standard deviation of Fast Fourier Transform of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
+fBodyAccJerk-std()-Z : Standard deviation of Fast Fourier Transform of the body acceleration Jerk signals for the X Axis (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyGyro-mean()-X   
-    Mean value of Fast Fourier Transform of the body acceleration signals for the X Axis (from the gyroscope)   
+fBodyGyro-mean()-X : Mean value of Fast Fourier Transform of the body acceleration signals for the X Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyGyro-mean()-Y   
-    Mean value of Fast Fourier Transform of the body acceleration signals for the Y Axis (from the gyroscope)   
+fBodyGyro-mean()-Y : Mean value of Fast Fourier Transform of the body acceleration signals for the Y Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyGyro-mean()-Z   
-    Mean value of Fast Fourier Transform of the body acceleration signals for the Z Axis (from the gyroscope)   
+fBodyGyro-mean()-Z : Mean value of Fast Fourier Transform of the body acceleration signals for the Z Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyGyro-std()-X   
-    Standard deviation of Fast Fourier Transform of the body acceleration signals for the X Axis (from the gyroscope)   
+fBodyGyro-std()-X : Standard deviation of Fast Fourier Transform of the body acceleration signals for the X Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyGyro-std()-Y   
-    Standard deviation of Fast Fourier Transform of the body acceleration signals for the Y Axis (from the gyroscope)   
+fBodyGyro-std()-Y : Standard deviation of Fast Fourier Transform of the body acceleration signals for the Y Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyGyro-std()-Z   
-    Standard deviation of Fast Fourier Transform of the body acceleration signals for the Z Axis (from the gyroscope)   
+fBodyGyro-std()-Z : Standard deviation of Fast Fourier Transform of the body acceleration signals for the Z Axis (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyAccMag-mean()   
-    Mean value of Fast Fourier Transform of the magnitude of the body acceleration signals of the three-dimensional signals (from the accelerometer)   
+fBodyAccMag-mean() : Mean value of Fast Fourier Transform of the magnitude of the body acceleration signals of the three-dimensional signals (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyAccMag-std()   
-    Standard deviation of Fast Fourier Transform of the magnitude of the body acceleration signals of the three-dimensional signals (from the accelerometer)   
+fBodyAccMag-std() : Standard deviation of Fast Fourier Transform of the magnitude of the body acceleration signals of the three-dimensional signals (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyBodyAccJerkMag-mean()   
-    Mean value of Fast Fourier Transform of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the accelerometer)   
+fBodyBodyAccJerkMag-mean() : Mean value of Fast Fourier Transform of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyBodyAccJerkMag-std()   
-    Standard deviation of Fast Fourier Transform of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the accelerometer)   
+fBodyBodyAccJerkMag-std() : Standard deviation of Fast Fourier Transform of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the accelerometer)   
                 The unit are Hz. Features are normalized and bounded within [-1,1]   
                    
-fBodyBodyGyroMag-mean()   
-    Mean value of Fast Fourier Transform of the magnitude of the body acceleration signals of the three-dimensional signals (from the gyroscope)   
+fBodyBodyGyroMag-mean() : Mean value of Fast Fourier Transform of the magnitude of the body acceleration signals of the three-dimensional signals (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyBodyGyroMag-std()   
-    Standard deviation of Fast Fourier Transform of the magnitude of the body acceleration signals of the three-dimensional signals (from the gyroscope)   
+fBodyBodyGyroMag-std() : Standard deviation of Fast Fourier Transform of the magnitude of the body acceleration signals of the three-dimensional signals (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyBodyGyroJerkMag-mean()   
-    Mean value of Fast Fourier Transform of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the gyroscope)   
+fBodyBodyGyroJerkMag-mean() : Mean value of Fast Fourier Transform of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]   
        
-fBodyBodyGyroJerkMag-std()   
-    Standard deviation of Fast Fourier Transform of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the gyroscope)   
+fBodyBodyGyroJerkMag-std() : Standard deviation of Fast Fourier Transform of the magnitude of the body acceleration Jerk signals of the three-dimensional signals (from the gyroscope)   
                 The units are radians/second. Features are normalized and bounded within [-1,1]
